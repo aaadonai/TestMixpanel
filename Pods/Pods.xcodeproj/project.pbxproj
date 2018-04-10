@@ -1,0 +1,959 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02573FC908211AA04366455D9358C88D /* FlushRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691288B7BA8883E20E44256250577BE6 /* FlushRequest.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		02718137AF1D81E0AF8245C6008A3CC2 /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785D387708B98655627BC3C25ABEE0E /* JSONHandler.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		02A2BD44C7B7FC5D1B2296955431679C /* ObjectIdentityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578BFAEE2C841EB2160E5B764DDD0FC9 /* ObjectIdentityProvider.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		04934A90B78C9510DC6A77D34D5EFFAA /* Decide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042169B9D5F09C19AA9C59C7CD956A17 /* Decide.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		064962F98837E8515424E317097D899F /* MixpanelInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17641AA672CE7455C977BE6BF1DDE69 /* MixpanelInstance.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		06B4198DEFEBD4D490B3615DFA01AC84 /* UIControlBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD4503C778A9F12C329B8E0F5F7A25 /* UIControlBinding.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		086EA70953EA40946DB02438F46FF5D9 /* CGSizeToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF2DF5B256BD7A50B2EDD7310B1212 /* CGSizeToNSDictionary.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		098A635D4EBA3424A4B075225B3BEDDC /* VariantAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F3EE7F51F2F0ED3F15D95D59010069 /* VariantAction.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0BE91100092D7A2C18B6475E1BF3F5AE /* MiniNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F54971C642FDDFC4CB6DFAE0C72F6E /* MiniNotificationViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0EF4227B8D2A626B8E319841E0D09D4B /* TweakViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA34CBB46C8EEA03F0935D7A003A46BB /* TweakViewData.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		181CAE018367980353FEC66100229B20 /* MPCloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F190793B24E45D49E5D7EA65D3ECF60F /* MPCloseButton.png */; };
+		18A54B1ED8037526E16AE11516D6FC82 /* ObjectSerializerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1C4A3EC18E40362CC9E21B9BB4E60 /* ObjectSerializerConfig.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1AD57BCD105A8CA8DBA8C5A62F2978F8 /* MiniNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35C9DB7C83D1DF3780A0D9561ED4DDC9 /* MiniNotificationViewController.xib */; };
+		1B475DF9936556392B6D3924A9129624 /* TweakLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662CF5A1D36FA5E2C6405B59B061AB91 /* TweakLibrary.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1D12A5A72998E59A89037D4081CC58FC /* UIImageToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92F2AF83B882BE361D31CAB953A9ADA /* UIImageToNSDictionary.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		21A3C6D35FB261A309B2D729BFD5FF2E /* NSAttributedStringToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B17A7E05818307763410A955047F9 /* NSAttributedStringToNSDictionary.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2C5C247B9D2267738EDD8BD34AA08C44 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3ACD284110A68895ED9749E38DE7F /* Constants.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2DE5FE094E55C091E4B1C3D57E0AACFF /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C5E3AA750FD03881DE53218FADEC7 /* Error.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2E8DB12ABAC8105BE8BCC962DBC91F5F /* ChangeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250C06EE2809A49E6F95224B366426B5 /* ChangeMessage.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2FCA74C3F705243BE67C9CC3F4F477F6 /* AutomaticEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68541D14FE1A2C930A1505679AAE21 /* AutomaticEvents.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		314AA1587FBC17787C009824632EFD04 /* Mixpanel-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51EFDC60687F550A2049B454E03748CA /* Mixpanel-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		328A7694F89254E7FDB5FE94315BD571 /* CGPointToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2018C33BB5A95053BE7141AA9AAA71AC /* CGPointToNSDictionary.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		33FA1DF9BE12EB4B751EAF626C0FF82F /* ObjectFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D67BEB8212E51DFADE8D8188291182A /* ObjectFilter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		35139D4399646CC55935D5D240CEDF9B /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E10512BD3816E4685495D4676D1E798 /* Track.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		35B474548242BBD3D1A15600A4114F35 /* TakeoverNotificationViewController~iphoneportrait.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5247787C9F77F39CAA4F8111CB20B05 /* TakeoverNotificationViewController~iphoneportrait.xib */; };
+		38621219E2BD767B68AF32CECEDC1D38 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBACD86F08B0E77A283E473DBB9C817 /* SSLSecurity.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3A65C8050AD52373944A4AF691B9150C /* AutomaticProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A9DEBF5A237A105D76976E33DD909 /* AutomaticProperties.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3B3F4AF6316E915F59A360A17809650A /* TweakClusterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF7D4CB86505396A95953C61D04C75 /* TweakClusterType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3BA7258158BC7C7B2363E133C0EAB8ED /* ApplicationStateSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5066228164F233AF3CBDA5B167A8D0A /* ApplicationStateSerializer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3E8A216C9C34E471E246E70739F2478A /* CGRectToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936D7D16B49979E23B6F70CE442AD86 /* CGRectToNSDictionary.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		441606A0687CE0B1EC8A1F5A9DDD8D28 /* MiniNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271D343B11C4E3313EE8FAEC3932FDD /* MiniNotification.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		51238576C8AC6BC95F469A71ACCF1266 /* Tweak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F309489EE16F0D37AE02205132DBA /* Tweak.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		56289B758B5CD04D29C87BB72510EE6D /* SessionMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91A30E1C30B0FD3122C24F24AFD0F2 /* SessionMetadata.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		62C5F9DBE35542C2104AC3774D661EC4 /* ABTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6939153875D01956F2B0C7822A9B9859 /* ABTesting.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6631E91E0FB888DE766D2FFF14CCAA7A /* InAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8893EC3937E4DF8FE666A1B63B34A3 /* InAppButton.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		664FB5256E311D8EBDB0EB6F912ED313 /* placeholder-image.png in Resources */ = {isa = PBXBuildFile; fileRef = B39D310E733688F5E2830789CEA642B5 /* placeholder-image.png */; };
+		6D5BBB0A157D56B74F62DB39D7C0CC8B /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF08FA018482F45CD91E943A6A358749 /* People.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6E8C60E21E4771AC3CFFA973D576E6B2 /* UIEdgeInsetsToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F719FD85ADBA6895EB235AB290351 /* UIEdgeInsetsToNSDictionary.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		707E5A323AB73C815FEDA43B57E2E508 /* UITableViewBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F100FCAA582750FABFF6B5ADD8B0D7 /* UITableViewBinding.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		712D0E1FFFD318CFA4C9AB80C25764E2 /* Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56C71A74DD8E087C4D2B3CC485F4617 /* Swizzle.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		716337BF1DD564F1EA6C796681C81988 /* TweakPersistency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759D21F76B7AD2EB40AB4581655B617 /* TweakPersistency.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		71D1C3A029892116DC78B9FB674D944A /* BindingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AC0F90E1149C02C08B02A7A0870D1 /* BindingMessage.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		71DC48E0A08E7994413D972574584018 /* AnyTweak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33219FB0F2EB83A809CBBA766882FEEF /* AnyTweak.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		73A9E17761BF9384BFC828A9C1D65356 /* IdentityTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5081B4C9478A8FD65295CE4E22D50A /* IdentityTransformer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		74F49033918145304C724255414C44AC /* ObjectSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1239E0D80A88C789FC9209C998427C21 /* ObjectSelector.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		776352FD9D24300A3D73F6BD36C098C6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783EFAE96A8E3EFBABB70595A28E2A0 /* Network.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7891DCFD23872BAD1CB37B130869717C /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F7B0D5FFABBF5C1CEF427110312E2 /* SHA256.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7D9AD9B3653D1149B38368D28EDC8C5F /* BaseNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41BFD493263AA03F418464887AC03F7 /* BaseNotificationViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7F39FA9903F2E20CCF24972A9119EB9B /* PrintLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543F987923A52F61B5B375B912690A7 /* PrintLogging.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		806BD5BCCAAC39869C9D537784A6AA1A /* CGAffineTransformToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492EED5CF76E17652137E70C83B6451E /* CGAffineTransformToNSDictionary.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		819D1C90E1102B03BF0F3094BFF996BD /* FileLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA0F61DC943B452CBB820EFDC35533 /* FileLogging.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8395051F7BA4DC9ED8DD8F8026429F29 /* DisconnectMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE122F688AC4185B63E362339C2FB591 /* DisconnectMessage.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		884F91246BF60FB2B2032A95690CA7C7 /* TakeoverNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C648B4E8EB36768FAA64BB16FB556DB /* TakeoverNotificationViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		89803BA85D1B23252206364584C056AA /* MixpanelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EA1C4F671412B6431C43AD2F083F0 /* MixpanelType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8BD5C4D4AAE3C4350FF75CD909E1BFAB /* UIViewSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E7FAE2B0A1314F13BBFCFD3861B52B /* UIViewSelectors.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8C99FB28175EF5E93AEBFC9ECE4E7AAE /* Pods-TestMixpanel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D62CC47D93187B8C501AB7988C7CE806 /* Pods-TestMixpanel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D902B1548649C4F4B66E4B1ED545E2A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A800D308127E2A61D0E242DDC7B49E /* CoreTelephony.framework */; };
+		9400360A723D3AF999669B9E9A679056 /* Flush.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBF753ABD8659BFE97CD39395E0119 /* Flush.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		985703D48F5FAE698858384AF4A7EEF2 /* Clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD6AB9F1D61067DB8A102CE20C0764 /* Clip.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		99F4B48855607A4DD4FA0386AA514522 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F6BED6606C6EB147B363D185993F4 /* Logger.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9D0D9820A74224B873203D88C1C0423F /* Pods-TestMixpanel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C87746483811897CBED98141BFC2A1E /* Pods-TestMixpanel-dummy.m */; };
+		9D5794C7C5AAB95D5E10793001A0FF2B /* InAppNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C17D1B373271A8622490C527570861 /* InAppNotification.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9EDA33DE706BB0629A44DDBBE7DD74E6 /* TakeoverNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8831BA94C3053B76AA8050ACCC594FFC /* TakeoverNotification.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A13C6222E98D1A2522E4CC099B78D016 /* ClearMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0EE4DBA09CD114B198F17F73E52DA /* ClearMessage.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A1A983B9E9CD873825CC1F5DC37D5411 /* ObjectSerializerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8CC92CCB8792EC05C591D3CD3359B /* ObjectSerializerContext.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A2CDB7B7BF021B7EA9A49505355C45AE /* WebSocketWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED5EAC8C57CD27E192F63CECE96603 /* WebSocketWrapper.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A408DC8EFDC12CC21BBF86009F9B86C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0BC486A3C9789E1D94949DB84ED6D /* Foundation.framework */; };
+		A6D02F33B55C73E29BDB18F8FD8D886E /* TweakGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D30D3E4DEEE2CE46BFCDD83F9765F38 /* TweakGroup.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A6F5278D44DB713A6F82EBC252933A13 /* ConnectIntegrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7010572ABD5E9908EEB96C33014F9F /* ConnectIntegrations.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A8A0F1553D56F49BC11C23532D2B5A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0BC486A3C9789E1D94949DB84ED6D /* Foundation.framework */; };
+		B5F298FC82F1910B830FD12F8BDFF221 /* VariantTweak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DD6BF22AA35B4C6E7CD7884EDDEC8 /* VariantTweak.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B68565D87F293C0A6DEA26B1CC5B6E45 /* MPCloseButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00304ED652CFD3BF73F30477937EF72C /* MPCloseButton@3x.png */; };
+		B7AD7688A0A1137376BAFC0C3349CA87 /* CodelessBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B8BD551CF861CA3E433702811D96D /* CodelessBinding.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BA3971B77C8903F459131C76195453BA /* DecideRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDCA89E2FD1C96A63C5E1D54A00BEF /* DecideRequest.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BB5254F141A595711822939A79FF182B /* ReadWriteLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE7B321C20150D2C31239B435C0FE12 /* ReadWriteLock.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BE9221AA6026F6935B78890E74917564 /* InAppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB12F33A63C57BE7E2C79E86EAB60F8 /* InAppNotifications.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BFB687DF08B9EE224B5BDBCCD6FBB31A /* TweakBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E81AABC5FF70C31EB3EBF42EDF5FD /* TweakBinding.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C03CF08DB89289DBA8C74B90A63D89DA /* UIColorToNSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05D9967357D09FAF64295C5D60719CA /* UIColorToNSString.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C18B8DC2E950B5CA88E324FBF16EEC59 /* TakeoverNotificationViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE450F533F92225E7C0CF4B51E51AA30 /* TakeoverNotificationViewController~ipad.xib */; };
+		C594FDDB3B9FE87AD685FB053DEE0CC2 /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3085BBCC7D524819F86235F19DEC41 /* Variant.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C7B5A3B5E68322C108FEAA226383BE21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A95C878CA6FCDF5CD141AD68D19148 /* UIKit.framework */; };
+		C8871C265820F2DE82040415A72AFAFF /* ObjectSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C37FBB572F1D287E7CCD70190E75721 /* ObjectSerializer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C8F8AF37FA6E733DD3080567E0B2F6D6 /* Mixpanel-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6217F31F52A2EA9443F6B05AE575C4B6 /* Mixpanel-swift-dummy.m */; };
+		CA690336682F0D3F6D40BB9AE6A40AB4 /* UIFontToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353F4F6CEA4EDB68A520AE8E76E6938B /* UIFontToNSDictionary.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CCE847B4ED052DD9839094075782AE08 /* BaseWebSocketMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA3829466E861836A60665C4867F27 /* BaseWebSocketMessage.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CE5B3B2670BCBFF53AD8A518E324847D /* TweakCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DFE6CFE27ECC2E7AF64B7A346607D7 /* TweakCollection.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D23D926D18DD0D9386D69A9205F5A39D /* TweakableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1031535502C5E47C4714DDF891C36E /* TweakableType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D9E0821CEBA77F723F7624B721DEBD75 /* Codeless.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1649880C7338773E2447810E521684B /* Codeless.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DAA09157D6B5E2780D4EA14C771AA3AE /* Mixpanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920276971323C08E296AE850A16E5FF8 /* Mixpanel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DD6C00644D12AAF66A9C5F0F449CE1C9 /* TweakMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73243109AFD93BD1E0B8DEFB0B01E7 /* TweakMessage.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E0A518E9CC5119FD3FE9B3DFAEA7B9A4 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B1700B4397152B19D196037CC9FC1 /* MD5.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E25381ABE285D45718AAEDD8092E4E1C /* TweakStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DA6416ADFA674956DED5BA6A4BC6DA /* TweakStore.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E62389B5DCD89F0A93CEF0EA67FF04D2 /* MPCloseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA9B6E950DE558D5CD0EF89BB1765A4 /* MPCloseButton@2x.png */; };
+		ED92AF8123E774DFA1FFFC17E12D80F9 /* SnapshotMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09657D4EE2CF57AB861210CC2EA4C44E /* SnapshotMessage.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F2DC0972C5F3CCA0CFB8B29F99FC0877 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89672850FE705394CC33DEEC00634188 /* WebSocket.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F41D0FB6E8C9F40DA14A335E2FF8F8C2 /* DeviceInfoMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A5E02FFE1B397962DEE84E75E2614C /* DeviceInfoMessage.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F4B609201CF7B02209C52B6A1A168DDD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87F553FA877F19743D37343A0190D0 /* Persistence.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FB80BD843E423D2DF150166B33E3BE47 /* TakeoverNotificationViewController~iphonelandscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 373E25C74F8F1D4EA94868C234178737 /* TakeoverNotificationViewController~iphonelandscape.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2254AE206F6A1B53A2026536E907E087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20F39DD3BFD065CEA38D502A667FC624;
+			remoteInfo = "Mixpanel-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00304ED652CFD3BF73F30477937EF72C /* MPCloseButton@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPCloseButton@3x.png"; path = "Mixpanel/MPCloseButton@3x.png"; sourceTree = "<group>"; };
+		006EA1C4F671412B6431C43AD2F083F0 /* MixpanelType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MixpanelType.swift; path = Mixpanel/MixpanelType.swift; sourceTree = "<group>"; };
+		03EA0F61DC943B452CBB820EFDC35533 /* FileLogging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileLogging.swift; path = Mixpanel/FileLogging.swift; sourceTree = "<group>"; };
+		042169B9D5F09C19AA9C59C7CD956A17 /* Decide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decide.swift; path = Mixpanel/Decide.swift; sourceTree = "<group>"; };
+		0759D21F76B7AD2EB40AB4581655B617 /* TweakPersistency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakPersistency.swift; path = Mixpanel/TweakPersistency.swift; sourceTree = "<group>"; };
+		07C827727568919C63E684B60F402637 /* Pods_TestMixpanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestMixpanel.framework; path = "Pods-TestMixpanel.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C17D1B373271A8622490C527570861 /* InAppNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppNotification.swift; path = Mixpanel/InAppNotification.swift; sourceTree = "<group>"; };
+		09657D4EE2CF57AB861210CC2EA4C44E /* SnapshotMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapshotMessage.swift; path = Mixpanel/SnapshotMessage.swift; sourceTree = "<group>"; };
+		0A87F553FA877F19743D37343A0190D0 /* Persistence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = Mixpanel/Persistence.swift; sourceTree = "<group>"; };
+		0D67BEB8212E51DFADE8D8188291182A /* ObjectFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectFilter.swift; path = Mixpanel/ObjectFilter.swift; sourceTree = "<group>"; };
+		0E0DD6BF22AA35B4C6E7CD7884EDDEC8 /* VariantTweak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VariantTweak.swift; path = Mixpanel/VariantTweak.swift; sourceTree = "<group>"; };
+		0E1E81AABC5FF70C31EB3EBF42EDF5FD /* TweakBinding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakBinding.swift; path = Mixpanel/TweakBinding.swift; sourceTree = "<group>"; };
+		1239E0D80A88C789FC9209C998427C21 /* ObjectSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSelector.swift; path = Mixpanel/ObjectSelector.swift; sourceTree = "<group>"; };
+		139241364BB68851C28413E4796193E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1783EFAE96A8E3EFBABB70595A28E2A0 /* Network.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Network.swift; path = Mixpanel/Network.swift; sourceTree = "<group>"; };
+		186F309489EE16F0D37AE02205132DBA /* Tweak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tweak.swift; path = Mixpanel/Tweak.swift; sourceTree = "<group>"; };
+		1EE0EE4DBA09CD114B198F17F73E52DA /* ClearMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClearMessage.swift; path = Mixpanel/ClearMessage.swift; sourceTree = "<group>"; };
+		2018C33BB5A95053BE7141AA9AAA71AC /* CGPointToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointToNSDictionary.swift; path = Mixpanel/CGPointToNSDictionary.swift; sourceTree = "<group>"; };
+		201C15B80DEFF36E7384A44EF1357701 /* Mixpanel-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mixpanel-swift-prefix.pch"; sourceTree = "<group>"; };
+		250C06EE2809A49E6F95224B366426B5 /* ChangeMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChangeMessage.swift; path = Mixpanel/ChangeMessage.swift; sourceTree = "<group>"; };
+		2E7B17A7E05818307763410A955047F9 /* NSAttributedStringToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAttributedStringToNSDictionary.swift; path = Mixpanel/NSAttributedStringToNSDictionary.swift; sourceTree = "<group>"; };
+		3008FFCE7BF7F95CE8556D9AFFE7C458 /* Mixpanel-swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mixpanel-swift.xcconfig"; sourceTree = "<group>"; };
+		3151A093BF9553BB79CD9792E6AB836A /* Pods-TestMixpanel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestMixpanel.modulemap"; sourceTree = "<group>"; };
+		33219FB0F2EB83A809CBBA766882FEEF /* AnyTweak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyTweak.swift; path = Mixpanel/AnyTweak.swift; sourceTree = "<group>"; };
+		353F4F6CEA4EDB68A520AE8E76E6938B /* UIFontToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontToNSDictionary.swift; path = Mixpanel/UIFontToNSDictionary.swift; sourceTree = "<group>"; };
+		35C9DB7C83D1DF3780A0D9561ED4DDC9 /* MiniNotificationViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MiniNotificationViewController.xib; path = Mixpanel/MiniNotificationViewController.xib; sourceTree = "<group>"; };
+		373E25C74F8F1D4EA94868C234178737 /* TakeoverNotificationViewController~iphonelandscape.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "TakeoverNotificationViewController~iphonelandscape.xib"; path = "Mixpanel/TakeoverNotificationViewController~iphonelandscape.xib"; sourceTree = "<group>"; };
+		3785D387708B98655627BC3C25ABEE0E /* JSONHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONHandler.swift; path = Mixpanel/JSONHandler.swift; sourceTree = "<group>"; };
+		379B1700B4397152B19D196037CC9FC1 /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Mixpanel/MD5.swift; sourceTree = "<group>"; };
+		3B60CE27C0BB254CE3957D926C70C14E /* Pods-TestMixpanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestMixpanel.release.xcconfig"; sourceTree = "<group>"; };
+		3EE7B321C20150D2C31239B435C0FE12 /* ReadWriteLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReadWriteLock.swift; path = Mixpanel/ReadWriteLock.swift; sourceTree = "<group>"; };
+		3F5081B4C9478A8FD65295CE4E22D50A /* IdentityTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IdentityTransformer.swift; path = Mixpanel/IdentityTransformer.swift; sourceTree = "<group>"; };
+		42CF7D4CB86505396A95953C61D04C75 /* TweakClusterType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakClusterType.swift; path = Mixpanel/TweakClusterType.swift; sourceTree = "<group>"; };
+		43A5E02FFE1B397962DEE84E75E2614C /* DeviceInfoMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceInfoMessage.swift; path = Mixpanel/DeviceInfoMessage.swift; sourceTree = "<group>"; };
+		492EED5CF76E17652137E70C83B6451E /* CGAffineTransformToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGAffineTransformToNSDictionary.swift; path = Mixpanel/CGAffineTransformToNSDictionary.swift; sourceTree = "<group>"; };
+		4ADD4503C778A9F12C329B8E0F5F7A25 /* UIControlBinding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIControlBinding.swift; path = Mixpanel/UIControlBinding.swift; sourceTree = "<group>"; };
+		4C648B4E8EB36768FAA64BB16FB556DB /* TakeoverNotificationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeoverNotificationViewController.swift; path = Mixpanel/TakeoverNotificationViewController.swift; sourceTree = "<group>"; };
+		4E1F7B0D5FFABBF5C1CEF427110312E2 /* SHA256.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA256.swift; path = Mixpanel/SHA256.swift; sourceTree = "<group>"; };
+		4E8893EC3937E4DF8FE666A1B63B34A3 /* InAppButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppButton.swift; path = Mixpanel/InAppButton.swift; sourceTree = "<group>"; };
+		51EFDC60687F550A2049B454E03748CA /* Mixpanel-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mixpanel-swift-umbrella.h"; sourceTree = "<group>"; };
+		578BFAEE2C841EB2160E5B764DDD0FC9 /* ObjectIdentityProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectIdentityProvider.swift; path = Mixpanel/ObjectIdentityProvider.swift; sourceTree = "<group>"; };
+		57CDCA89E2FD1C96A63C5E1D54A00BEF /* DecideRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecideRequest.swift; path = Mixpanel/DecideRequest.swift; sourceTree = "<group>"; };
+		58EA3829466E861836A60665C4867F27 /* BaseWebSocketMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseWebSocketMessage.swift; path = Mixpanel/BaseWebSocketMessage.swift; sourceTree = "<group>"; };
+		59EF2DF5B256BD7A50B2EDD7310B1212 /* CGSizeToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSizeToNSDictionary.swift; path = Mixpanel/CGSizeToNSDictionary.swift; sourceTree = "<group>"; };
+		5D30D3E4DEEE2CE46BFCDD83F9765F38 /* TweakGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakGroup.swift; path = Mixpanel/TweakGroup.swift; sourceTree = "<group>"; };
+		5E10512BD3816E4685495D4676D1E798 /* Track.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Track.swift; path = Mixpanel/Track.swift; sourceTree = "<group>"; };
+		6217F31F52A2EA9443F6B05AE575C4B6 /* Mixpanel-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mixpanel-swift-dummy.m"; sourceTree = "<group>"; };
+		662CF5A1D36FA5E2C6405B59B061AB91 /* TweakLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakLibrary.swift; path = Mixpanel/TweakLibrary.swift; sourceTree = "<group>"; };
+		68D3ACD284110A68895ED9749E38DE7F /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Mixpanel/Constants.swift; sourceTree = "<group>"; };
+		68F54971C642FDDFC4CB6DFAE0C72F6E /* MiniNotificationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MiniNotificationViewController.swift; path = Mixpanel/MiniNotificationViewController.swift; sourceTree = "<group>"; };
+		691288B7BA8883E20E44256250577BE6 /* FlushRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlushRequest.swift; path = Mixpanel/FlushRequest.swift; sourceTree = "<group>"; };
+		6939153875D01956F2B0C7822A9B9859 /* ABTesting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABTesting.swift; path = Mixpanel/ABTesting.swift; sourceTree = "<group>"; };
+		7543F987923A52F61B5B375B912690A7 /* PrintLogging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrintLogging.swift; path = Mixpanel/PrintLogging.swift; sourceTree = "<group>"; };
+		76DA6416ADFA674956DED5BA6A4BC6DA /* TweakStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakStore.swift; path = Mixpanel/TweakStore.swift; sourceTree = "<group>"; };
+		7B1031535502C5E47C4714DDF891C36E /* TweakableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakableType.swift; path = Mixpanel/TweakableType.swift; sourceTree = "<group>"; };
+		7C87746483811897CBED98141BFC2A1E /* Pods-TestMixpanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestMixpanel-dummy.m"; sourceTree = "<group>"; };
+		7F3085BBCC7D524819F86235F19DEC41 /* Variant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Variant.swift; path = Mixpanel/Variant.swift; sourceTree = "<group>"; };
+		7F7010572ABD5E9908EEB96C33014F9F /* ConnectIntegrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConnectIntegrations.swift; path = Mixpanel/ConnectIntegrations.swift; sourceTree = "<group>"; };
+		811A9DEBF5A237A105D76976E33DD909 /* AutomaticProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutomaticProperties.swift; path = Mixpanel/AutomaticProperties.swift; sourceTree = "<group>"; };
+		8501AD1AE928D73E482B3B7A0ED2562C /* Pods-TestMixpanel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestMixpanel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8831BA94C3053B76AA8050ACCC594FFC /* TakeoverNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeoverNotification.swift; path = Mixpanel/TakeoverNotification.swift; sourceTree = "<group>"; };
+		89672850FE705394CC33DEEC00634188 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Mixpanel/WebSocket.swift; sourceTree = "<group>"; };
+		8B4C5E3AA750FD03881DE53218FADEC7 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Mixpanel/Error.swift; sourceTree = "<group>"; };
+		8B91A30E1C30B0FD3122C24F24AFD0F2 /* SessionMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionMetadata.swift; path = Mixpanel/SessionMetadata.swift; sourceTree = "<group>"; };
+		8BB12F33A63C57BE7E2C79E86EAB60F8 /* InAppNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppNotifications.swift; path = Mixpanel/InAppNotifications.swift; sourceTree = "<group>"; };
+		8E73243109AFD93BD1E0B8DEFB0B01E7 /* TweakMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakMessage.swift; path = Mixpanel/TweakMessage.swift; sourceTree = "<group>"; };
+		8FA9B6E950DE558D5CD0EF89BB1765A4 /* MPCloseButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPCloseButton@2x.png"; path = "Mixpanel/MPCloseButton@2x.png"; sourceTree = "<group>"; };
+		920276971323C08E296AE850A16E5FF8 /* Mixpanel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mixpanel.swift; path = Mixpanel/Mixpanel.swift; sourceTree = "<group>"; };
+		9271D343B11C4E3313EE8FAEC3932FDD /* MiniNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MiniNotification.swift; path = Mixpanel/MiniNotification.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A800D308127E2A61D0E242DDC7B49E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		9936D7D16B49979E23B6F70CE442AD86 /* CGRectToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectToNSDictionary.swift; path = Mixpanel/CGRectToNSDictionary.swift; sourceTree = "<group>"; };
+		9C37FBB572F1D287E7CCD70190E75721 /* ObjectSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSerializer.swift; path = Mixpanel/ObjectSerializer.swift; sourceTree = "<group>"; };
+		A05D9967357D09FAF64295C5D60719CA /* UIColorToNSString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorToNSString.swift; path = Mixpanel/UIColorToNSString.swift; sourceTree = "<group>"; };
+		A18F6BED6606C6EB147B363D185993F4 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Mixpanel/Logger.swift; sourceTree = "<group>"; };
+		A3B0BC486A3C9789E1D94949DB84ED6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A4B17891502FD845914046176A342730 /* Pods-TestMixpanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestMixpanel.debug.xcconfig"; sourceTree = "<group>"; };
+		A5066228164F233AF3CBDA5B167A8D0A /* ApplicationStateSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationStateSerializer.swift; path = Mixpanel/ApplicationStateSerializer.swift; sourceTree = "<group>"; };
+		A5BD6AB9F1D61067DB8A102CE20C0764 /* Clip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Clip.swift; path = Mixpanel/Clip.swift; sourceTree = "<group>"; };
+		A6DFE6CFE27ECC2E7AF64B7A346607D7 /* TweakCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakCollection.swift; path = Mixpanel/TweakCollection.swift; sourceTree = "<group>"; };
+		A70F719FD85ADBA6895EB235AB290351 /* UIEdgeInsetsToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIEdgeInsetsToNSDictionary.swift; path = Mixpanel/UIEdgeInsetsToNSDictionary.swift; sourceTree = "<group>"; };
+		A8FBF753ABD8659BFE97CD39395E0119 /* Flush.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flush.swift; path = Mixpanel/Flush.swift; sourceTree = "<group>"; };
+		AA34CBB46C8EEA03F0935D7A003A46BB /* TweakViewData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakViewData.swift; path = Mixpanel/TweakViewData.swift; sourceTree = "<group>"; };
+		AE450F533F92225E7C0CF4B51E51AA30 /* TakeoverNotificationViewController~ipad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "TakeoverNotificationViewController~ipad.xib"; path = "Mixpanel/TakeoverNotificationViewController~ipad.xib"; sourceTree = "<group>"; };
+		AFBACD86F08B0E77A283E473DBB9C817 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Mixpanel/SSLSecurity.swift; sourceTree = "<group>"; };
+		B17641AA672CE7455C977BE6BF1DDE69 /* MixpanelInstance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MixpanelInstance.swift; path = Mixpanel/MixpanelInstance.swift; sourceTree = "<group>"; };
+		B39D310E733688F5E2830789CEA642B5 /* placeholder-image.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "placeholder-image.png"; path = "Mixpanel/placeholder-image.png"; sourceTree = "<group>"; };
+		B6B76928B20C170D7BCF7AECCB084BA1 /* Pods-TestMixpanel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestMixpanel-frameworks.sh"; sourceTree = "<group>"; };
+		B92F2AF83B882BE361D31CAB953A9ADA /* UIImageToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageToNSDictionary.swift; path = Mixpanel/UIImageToNSDictionary.swift; sourceTree = "<group>"; };
+		B9E7FAE2B0A1314F13BBFCFD3861B52B /* UIViewSelectors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewSelectors.swift; path = Mixpanel/UIViewSelectors.swift; sourceTree = "<group>"; };
+		BC95B144EF8B73CD1B314DD1F2E7A467 /* Pods-TestMixpanel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestMixpanel-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5247787C9F77F39CAA4F8111CB20B05 /* TakeoverNotificationViewController~iphoneportrait.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "TakeoverNotificationViewController~iphoneportrait.xib"; path = "Mixpanel/TakeoverNotificationViewController~iphoneportrait.xib"; sourceTree = "<group>"; };
+		CAED5EAC8C57CD27E192F63CECE96603 /* WebSocketWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketWrapper.swift; path = Mixpanel/WebSocketWrapper.swift; sourceTree = "<group>"; };
+		CCD1C4A3EC18E40362CC9E21B9BB4E60 /* ObjectSerializerConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSerializerConfig.swift; path = Mixpanel/ObjectSerializerConfig.swift; sourceTree = "<group>"; };
+		CDA8CC92CCB8792EC05C591D3CD3359B /* ObjectSerializerContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSerializerContext.swift; path = Mixpanel/ObjectSerializerContext.swift; sourceTree = "<group>"; };
+		D1649880C7338773E2447810E521684B /* Codeless.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codeless.swift; path = Mixpanel/Codeless.swift; sourceTree = "<group>"; };
+		D56C71A74DD8E087C4D2B3CC485F4617 /* Swizzle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swizzle.swift; path = Mixpanel/Swizzle.swift; sourceTree = "<group>"; };
+		D62CC47D93187B8C501AB7988C7CE806 /* Pods-TestMixpanel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestMixpanel-umbrella.h"; sourceTree = "<group>"; };
+		D6F100FCAA582750FABFF6B5ADD8B0D7 /* UITableViewBinding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewBinding.swift; path = Mixpanel/UITableViewBinding.swift; sourceTree = "<group>"; };
+		D794D6B395BB6A52D967A099E4512D53 /* Pods-TestMixpanel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestMixpanel-resources.sh"; sourceTree = "<group>"; };
+		D847EEB8F3707C17F45268E1E1C2283F /* Mixpanel-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Mixpanel-swift.modulemap"; sourceTree = "<group>"; };
+		DE122F688AC4185B63E362339C2FB591 /* DisconnectMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisconnectMessage.swift; path = Mixpanel/DisconnectMessage.swift; sourceTree = "<group>"; };
+		E2F3EE7F51F2F0ED3F15D95D59010069 /* VariantAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VariantAction.swift; path = Mixpanel/VariantAction.swift; sourceTree = "<group>"; };
+		E41BFD493263AA03F418464887AC03F7 /* BaseNotificationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseNotificationViewController.swift; path = Mixpanel/BaseNotificationViewController.swift; sourceTree = "<group>"; };
+		E7D9A6374A2C72F72C2C7D2A784C44D7 /* Mixpanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mixpanel.framework; path = "Mixpanel-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF08FA018482F45CD91E943A6A358749 /* People.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = People.swift; path = Mixpanel/People.swift; sourceTree = "<group>"; };
+		EF68541D14FE1A2C930A1505679AAE21 /* AutomaticEvents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutomaticEvents.swift; path = Mixpanel/AutomaticEvents.swift; sourceTree = "<group>"; };
+		F190793B24E45D49E5D7EA65D3ECF60F /* MPCloseButton.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPCloseButton.png; path = Mixpanel/MPCloseButton.png; sourceTree = "<group>"; };
+		F40E5FA5159EE26408D4F39F7FDC565A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45B8BD551CF861CA3E433702811D96D /* CodelessBinding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodelessBinding.swift; path = Mixpanel/CodelessBinding.swift; sourceTree = "<group>"; };
+		F6A95C878CA6FCDF5CD141AD68D19148 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FA7AC0F90E1149C02C08B02A7A0870D1 /* BindingMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BindingMessage.swift; path = Mixpanel/BindingMessage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D3CF7764648F419417F2D03C423229C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A408DC8EFDC12CC21BBF86009F9B86C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A3F3F52BE9B7058261968D687C8EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D902B1548649C4F4B66E4B1ED545E2A /* CoreTelephony.framework in Frameworks */,
+				A8A0F1553D56F49BC11C23532D2B5A7A /* Foundation.framework in Frameworks */,
+				C7B5A3B5E68322C108FEAA226383BE21 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B49B14DE226E861019D2452F1C154AF5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AD3A2E21DBBDBD44205F4D1738F8C08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35C9DB7C83D1DF3780A0D9561ED4DDC9 /* MiniNotificationViewController.xib */,
+				F190793B24E45D49E5D7EA65D3ECF60F /* MPCloseButton.png */,
+				8FA9B6E950DE558D5CD0EF89BB1765A4 /* MPCloseButton@2x.png */,
+				00304ED652CFD3BF73F30477937EF72C /* MPCloseButton@3x.png */,
+				B39D310E733688F5E2830789CEA642B5 /* placeholder-image.png */,
+				AE450F533F92225E7C0CF4B51E51AA30 /* TakeoverNotificationViewController~ipad.xib */,
+				373E25C74F8F1D4EA94868C234178737 /* TakeoverNotificationViewController~iphonelandscape.xib */,
+				C5247787C9F77F39CAA4F8111CB20B05 /* TakeoverNotificationViewController~iphoneportrait.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A70FCD0F4CC25132F94177D74B9156E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B64D9E4529321A4988AC3308550DFAFA /* Pods-TestMixpanel */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		419E19A3555CC5DD1EF06398751E7229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7D9A6374A2C72F72C2C7D2A784C44D7 /* Mixpanel.framework */,
+				07C827727568919C63E684B60F402637 /* Pods_TestMixpanel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655FCEB760463AAEE46A3E6066F137F2 /* Complete */ = {
+			isa = PBXGroup;
+			children = (
+				6939153875D01956F2B0C7822A9B9859 /* ABTesting.swift */,
+				33219FB0F2EB83A809CBBA766882FEEF /* AnyTweak.swift */,
+				A5066228164F233AF3CBDA5B167A8D0A /* ApplicationStateSerializer.swift */,
+				EF68541D14FE1A2C930A1505679AAE21 /* AutomaticEvents.swift */,
+				811A9DEBF5A237A105D76976E33DD909 /* AutomaticProperties.swift */,
+				E41BFD493263AA03F418464887AC03F7 /* BaseNotificationViewController.swift */,
+				58EA3829466E861836A60665C4867F27 /* BaseWebSocketMessage.swift */,
+				FA7AC0F90E1149C02C08B02A7A0870D1 /* BindingMessage.swift */,
+				492EED5CF76E17652137E70C83B6451E /* CGAffineTransformToNSDictionary.swift */,
+				2018C33BB5A95053BE7141AA9AAA71AC /* CGPointToNSDictionary.swift */,
+				9936D7D16B49979E23B6F70CE442AD86 /* CGRectToNSDictionary.swift */,
+				59EF2DF5B256BD7A50B2EDD7310B1212 /* CGSizeToNSDictionary.swift */,
+				250C06EE2809A49E6F95224B366426B5 /* ChangeMessage.swift */,
+				1EE0EE4DBA09CD114B198F17F73E52DA /* ClearMessage.swift */,
+				A5BD6AB9F1D61067DB8A102CE20C0764 /* Clip.swift */,
+				D1649880C7338773E2447810E521684B /* Codeless.swift */,
+				F45B8BD551CF861CA3E433702811D96D /* CodelessBinding.swift */,
+				7F7010572ABD5E9908EEB96C33014F9F /* ConnectIntegrations.swift */,
+				68D3ACD284110A68895ED9749E38DE7F /* Constants.swift */,
+				042169B9D5F09C19AA9C59C7CD956A17 /* Decide.swift */,
+				57CDCA89E2FD1C96A63C5E1D54A00BEF /* DecideRequest.swift */,
+				43A5E02FFE1B397962DEE84E75E2614C /* DeviceInfoMessage.swift */,
+				DE122F688AC4185B63E362339C2FB591 /* DisconnectMessage.swift */,
+				8B4C5E3AA750FD03881DE53218FADEC7 /* Error.swift */,
+				03EA0F61DC943B452CBB820EFDC35533 /* FileLogging.swift */,
+				A8FBF753ABD8659BFE97CD39395E0119 /* Flush.swift */,
+				691288B7BA8883E20E44256250577BE6 /* FlushRequest.swift */,
+				3F5081B4C9478A8FD65295CE4E22D50A /* IdentityTransformer.swift */,
+				4E8893EC3937E4DF8FE666A1B63B34A3 /* InAppButton.swift */,
+				08C17D1B373271A8622490C527570861 /* InAppNotification.swift */,
+				8BB12F33A63C57BE7E2C79E86EAB60F8 /* InAppNotifications.swift */,
+				3785D387708B98655627BC3C25ABEE0E /* JSONHandler.swift */,
+				A18F6BED6606C6EB147B363D185993F4 /* Logger.swift */,
+				379B1700B4397152B19D196037CC9FC1 /* MD5.swift */,
+				9271D343B11C4E3313EE8FAEC3932FDD /* MiniNotification.swift */,
+				68F54971C642FDDFC4CB6DFAE0C72F6E /* MiniNotificationViewController.swift */,
+				920276971323C08E296AE850A16E5FF8 /* Mixpanel.swift */,
+				B17641AA672CE7455C977BE6BF1DDE69 /* MixpanelInstance.swift */,
+				006EA1C4F671412B6431C43AD2F083F0 /* MixpanelType.swift */,
+				1783EFAE96A8E3EFBABB70595A28E2A0 /* Network.swift */,
+				2E7B17A7E05818307763410A955047F9 /* NSAttributedStringToNSDictionary.swift */,
+				0D67BEB8212E51DFADE8D8188291182A /* ObjectFilter.swift */,
+				578BFAEE2C841EB2160E5B764DDD0FC9 /* ObjectIdentityProvider.swift */,
+				1239E0D80A88C789FC9209C998427C21 /* ObjectSelector.swift */,
+				9C37FBB572F1D287E7CCD70190E75721 /* ObjectSerializer.swift */,
+				CCD1C4A3EC18E40362CC9E21B9BB4E60 /* ObjectSerializerConfig.swift */,
+				CDA8CC92CCB8792EC05C591D3CD3359B /* ObjectSerializerContext.swift */,
+				EF08FA018482F45CD91E943A6A358749 /* People.swift */,
+				0A87F553FA877F19743D37343A0190D0 /* Persistence.swift */,
+				7543F987923A52F61B5B375B912690A7 /* PrintLogging.swift */,
+				3EE7B321C20150D2C31239B435C0FE12 /* ReadWriteLock.swift */,
+				8B91A30E1C30B0FD3122C24F24AFD0F2 /* SessionMetadata.swift */,
+				4E1F7B0D5FFABBF5C1CEF427110312E2 /* SHA256.swift */,
+				09657D4EE2CF57AB861210CC2EA4C44E /* SnapshotMessage.swift */,
+				AFBACD86F08B0E77A283E473DBB9C817 /* SSLSecurity.swift */,
+				D56C71A74DD8E087C4D2B3CC485F4617 /* Swizzle.swift */,
+				8831BA94C3053B76AA8050ACCC594FFC /* TakeoverNotification.swift */,
+				4C648B4E8EB36768FAA64BB16FB556DB /* TakeoverNotificationViewController.swift */,
+				5E10512BD3816E4685495D4676D1E798 /* Track.swift */,
+				186F309489EE16F0D37AE02205132DBA /* Tweak.swift */,
+				7B1031535502C5E47C4714DDF891C36E /* TweakableType.swift */,
+				0E1E81AABC5FF70C31EB3EBF42EDF5FD /* TweakBinding.swift */,
+				42CF7D4CB86505396A95953C61D04C75 /* TweakClusterType.swift */,
+				A6DFE6CFE27ECC2E7AF64B7A346607D7 /* TweakCollection.swift */,
+				5D30D3E4DEEE2CE46BFCDD83F9765F38 /* TweakGroup.swift */,
+				662CF5A1D36FA5E2C6405B59B061AB91 /* TweakLibrary.swift */,
+				8E73243109AFD93BD1E0B8DEFB0B01E7 /* TweakMessage.swift */,
+				0759D21F76B7AD2EB40AB4581655B617 /* TweakPersistency.swift */,
+				76DA6416ADFA674956DED5BA6A4BC6DA /* TweakStore.swift */,
+				AA34CBB46C8EEA03F0935D7A003A46BB /* TweakViewData.swift */,
+				A05D9967357D09FAF64295C5D60719CA /* UIColorToNSString.swift */,
+				4ADD4503C778A9F12C329B8E0F5F7A25 /* UIControlBinding.swift */,
+				A70F719FD85ADBA6895EB235AB290351 /* UIEdgeInsetsToNSDictionary.swift */,
+				353F4F6CEA4EDB68A520AE8E76E6938B /* UIFontToNSDictionary.swift */,
+				B92F2AF83B882BE361D31CAB953A9ADA /* UIImageToNSDictionary.swift */,
+				D6F100FCAA582750FABFF6B5ADD8B0D7 /* UITableViewBinding.swift */,
+				B9E7FAE2B0A1314F13BBFCFD3861B52B /* UIViewSelectors.swift */,
+				7F3085BBCC7D524819F86235F19DEC41 /* Variant.swift */,
+				E2F3EE7F51F2F0ED3F15D95D59010069 /* VariantAction.swift */,
+				0E0DD6BF22AA35B4C6E7CD7884EDDEC8 /* VariantTweak.swift */,
+				89672850FE705394CC33DEEC00634188 /* WebSocket.swift */,
+				CAED5EAC8C57CD27E192F63CECE96603 /* WebSocketWrapper.swift */,
+			);
+			name = Complete;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				ADE8000E70D61246380C137EFFB784AF /* Pods */,
+				419E19A3555CC5DD1EF06398751E7229 /* Products */,
+				2A70FCD0F4CC25132F94177D74B9156E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ADE8000E70D61246380C137EFFB784AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA6097AAC6E897A2A9B29D4D879AC5B1 /* Mixpanel-swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B49B14DE226E861019D2452F1C154AF5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				93A800D308127E2A61D0E242DDC7B49E /* CoreTelephony.framework */,
+				A3B0BC486A3C9789E1D94949DB84ED6D /* Foundation.framework */,
+				F6A95C878CA6FCDF5CD141AD68D19148 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B64D9E4529321A4988AC3308550DFAFA /* Pods-TestMixpanel */ = {
+			isa = PBXGroup;
+			children = (
+				F40E5FA5159EE26408D4F39F7FDC565A /* Info.plist */,
+				3151A093BF9553BB79CD9792E6AB836A /* Pods-TestMixpanel.modulemap */,
+				8501AD1AE928D73E482B3B7A0ED2562C /* Pods-TestMixpanel-acknowledgements.markdown */,
+				BC95B144EF8B73CD1B314DD1F2E7A467 /* Pods-TestMixpanel-acknowledgements.plist */,
+				7C87746483811897CBED98141BFC2A1E /* Pods-TestMixpanel-dummy.m */,
+				B6B76928B20C170D7BCF7AECCB084BA1 /* Pods-TestMixpanel-frameworks.sh */,
+				D794D6B395BB6A52D967A099E4512D53 /* Pods-TestMixpanel-resources.sh */,
+				D62CC47D93187B8C501AB7988C7CE806 /* Pods-TestMixpanel-umbrella.h */,
+				A4B17891502FD845914046176A342730 /* Pods-TestMixpanel.debug.xcconfig */,
+				3B60CE27C0BB254CE3957D926C70C14E /* Pods-TestMixpanel.release.xcconfig */,
+			);
+			name = "Pods-TestMixpanel";
+			path = "Target Support Files/Pods-TestMixpanel";
+			sourceTree = "<group>";
+		};
+		D3A122E1C16B2125375629D656BFF00B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				139241364BB68851C28413E4796193E5 /* Info.plist */,
+				D847EEB8F3707C17F45268E1E1C2283F /* Mixpanel-swift.modulemap */,
+				3008FFCE7BF7F95CE8556D9AFFE7C458 /* Mixpanel-swift.xcconfig */,
+				6217F31F52A2EA9443F6B05AE575C4B6 /* Mixpanel-swift-dummy.m */,
+				201C15B80DEFF36E7384A44EF1357701 /* Mixpanel-swift-prefix.pch */,
+				51EFDC60687F550A2049B454E03748CA /* Mixpanel-swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mixpanel-swift";
+			sourceTree = "<group>";
+		};
+		DA6097AAC6E897A2A9B29D4D879AC5B1 /* Mixpanel-swift */ = {
+			isa = PBXGroup;
+			children = (
+				655FCEB760463AAEE46A3E6066F137F2 /* Complete */,
+				1AD3A2E21DBBDBD44205F4D1738F8C08 /* Resources */,
+				D3A122E1C16B2125375629D656BFF00B /* Support Files */,
+			);
+			name = "Mixpanel-swift";
+			path = "Mixpanel-swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84FFC1552627AD6DEAC81244A168644F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C99FB28175EF5E93AEBFC9ECE4E7AAE /* Pods-TestMixpanel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2C7254299E4C7F3267FE878B66983E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314AA1587FBC17787C009824632EFD04 /* Mixpanel-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20F39DD3BFD065CEA38D502A667FC624 /* Mixpanel-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 601DA0A9CA8199D75BDBD7B50F4DF5EF /* Build configuration list for PBXNativeTarget "Mixpanel-swift" */;
+			buildPhases = (
+				E90B7ACD8EC98360298794340C7A04C9 /* Sources */,
+				D7A3F3F52BE9B7058261968D687C8EA2 /* Frameworks */,
+				C2B8BF84952565FE16218E682FED86C4 /* Resources */,
+				BB2C7254299E4C7F3267FE878B66983E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mixpanel-swift";
+			productName = "Mixpanel-swift";
+			productReference = E7D9A6374A2C72F72C2C7D2A784C44D7 /* Mixpanel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C22236A9C644A61EDCF9A35501579D0 /* Pods-TestMixpanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BB459012C392C6AD56E5BF23F566C5 /* Build configuration list for PBXNativeTarget "Pods-TestMixpanel" */;
+			buildPhases = (
+				69FF86B66FE999B7FB79660D10E08555 /* Sources */,
+				6D3CF7764648F419417F2D03C423229C /* Frameworks */,
+				84FFC1552627AD6DEAC81244A168644F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				799C33DFC198121D241BBE77D1C5DB6D /* PBXTargetDependency */,
+			);
+			name = "Pods-TestMixpanel";
+			productName = "Pods-TestMixpanel";
+			productReference = 07C827727568919C63E684B60F402637 /* Pods_TestMixpanel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 419E19A3555CC5DD1EF06398751E7229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20F39DD3BFD065CEA38D502A667FC624 /* Mixpanel-swift */,
+				9C22236A9C644A61EDCF9A35501579D0 /* Pods-TestMixpanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2B8BF84952565FE16218E682FED86C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD57BCD105A8CA8DBA8C5A62F2978F8 /* MiniNotificationViewController.xib in Resources */,
+				181CAE018367980353FEC66100229B20 /* MPCloseButton.png in Resources */,
+				E62389B5DCD89F0A93CEF0EA67FF04D2 /* MPCloseButton@2x.png in Resources */,
+				B68565D87F293C0A6DEA26B1CC5B6E45 /* MPCloseButton@3x.png in Resources */,
+				664FB5256E311D8EBDB0EB6F912ED313 /* placeholder-image.png in Resources */,
+				C18B8DC2E950B5CA88E324FBF16EEC59 /* TakeoverNotificationViewController~ipad.xib in Resources */,
+				FB80BD843E423D2DF150166B33E3BE47 /* TakeoverNotificationViewController~iphonelandscape.xib in Resources */,
+				35B474548242BBD3D1A15600A4114F35 /* TakeoverNotificationViewController~iphoneportrait.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69FF86B66FE999B7FB79660D10E08555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0D9820A74224B873203D88C1C0423F /* Pods-TestMixpanel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90B7ACD8EC98360298794340C7A04C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C5F9DBE35542C2104AC3774D661EC4 /* ABTesting.swift in Sources */,
+				71DC48E0A08E7994413D972574584018 /* AnyTweak.swift in Sources */,
+				3BA7258158BC7C7B2363E133C0EAB8ED /* ApplicationStateSerializer.swift in Sources */,
+				2FCA74C3F705243BE67C9CC3F4F477F6 /* AutomaticEvents.swift in Sources */,
+				3A65C8050AD52373944A4AF691B9150C /* AutomaticProperties.swift in Sources */,
+				7D9AD9B3653D1149B38368D28EDC8C5F /* BaseNotificationViewController.swift in Sources */,
+				CCE847B4ED052DD9839094075782AE08 /* BaseWebSocketMessage.swift in Sources */,
+				71D1C3A029892116DC78B9FB674D944A /* BindingMessage.swift in Sources */,
+				806BD5BCCAAC39869C9D537784A6AA1A /* CGAffineTransformToNSDictionary.swift in Sources */,
+				328A7694F89254E7FDB5FE94315BD571 /* CGPointToNSDictionary.swift in Sources */,
+				3E8A216C9C34E471E246E70739F2478A /* CGRectToNSDictionary.swift in Sources */,
+				086EA70953EA40946DB02438F46FF5D9 /* CGSizeToNSDictionary.swift in Sources */,
+				2E8DB12ABAC8105BE8BCC962DBC91F5F /* ChangeMessage.swift in Sources */,
+				A13C6222E98D1A2522E4CC099B78D016 /* ClearMessage.swift in Sources */,
+				985703D48F5FAE698858384AF4A7EEF2 /* Clip.swift in Sources */,
+				D9E0821CEBA77F723F7624B721DEBD75 /* Codeless.swift in Sources */,
+				B7AD7688A0A1137376BAFC0C3349CA87 /* CodelessBinding.swift in Sources */,
+				A6F5278D44DB713A6F82EBC252933A13 /* ConnectIntegrations.swift in Sources */,
+				2C5C247B9D2267738EDD8BD34AA08C44 /* Constants.swift in Sources */,
+				04934A90B78C9510DC6A77D34D5EFFAA /* Decide.swift in Sources */,
+				BA3971B77C8903F459131C76195453BA /* DecideRequest.swift in Sources */,
+				F41D0FB6E8C9F40DA14A335E2FF8F8C2 /* DeviceInfoMessage.swift in Sources */,
+				8395051F7BA4DC9ED8DD8F8026429F29 /* DisconnectMessage.swift in Sources */,
+				2DE5FE094E55C091E4B1C3D57E0AACFF /* Error.swift in Sources */,
+				819D1C90E1102B03BF0F3094BFF996BD /* FileLogging.swift in Sources */,
+				9400360A723D3AF999669B9E9A679056 /* Flush.swift in Sources */,
+				02573FC908211AA04366455D9358C88D /* FlushRequest.swift in Sources */,
+				73A9E17761BF9384BFC828A9C1D65356 /* IdentityTransformer.swift in Sources */,
+				6631E91E0FB888DE766D2FFF14CCAA7A /* InAppButton.swift in Sources */,
+				9D5794C7C5AAB95D5E10793001A0FF2B /* InAppNotification.swift in Sources */,
+				BE9221AA6026F6935B78890E74917564 /* InAppNotifications.swift in Sources */,
+				02718137AF1D81E0AF8245C6008A3CC2 /* JSONHandler.swift in Sources */,
+				99F4B48855607A4DD4FA0386AA514522 /* Logger.swift in Sources */,
+				E0A518E9CC5119FD3FE9B3DFAEA7B9A4 /* MD5.swift in Sources */,
+				441606A0687CE0B1EC8A1F5A9DDD8D28 /* MiniNotification.swift in Sources */,
+				0BE91100092D7A2C18B6475E1BF3F5AE /* MiniNotificationViewController.swift in Sources */,
+				C8F8AF37FA6E733DD3080567E0B2F6D6 /* Mixpanel-swift-dummy.m in Sources */,
+				DAA09157D6B5E2780D4EA14C771AA3AE /* Mixpanel.swift in Sources */,
+				064962F98837E8515424E317097D899F /* MixpanelInstance.swift in Sources */,
+				89803BA85D1B23252206364584C056AA /* MixpanelType.swift in Sources */,
+				776352FD9D24300A3D73F6BD36C098C6 /* Network.swift in Sources */,
+				21A3C6D35FB261A309B2D729BFD5FF2E /* NSAttributedStringToNSDictionary.swift in Sources */,
+				33FA1DF9BE12EB4B751EAF626C0FF82F /* ObjectFilter.swift in Sources */,
+				02A2BD44C7B7FC5D1B2296955431679C /* ObjectIdentityProvider.swift in Sources */,
+				74F49033918145304C724255414C44AC /* ObjectSelector.swift in Sources */,
+				C8871C265820F2DE82040415A72AFAFF /* ObjectSerializer.swift in Sources */,
+				18A54B1ED8037526E16AE11516D6FC82 /* ObjectSerializerConfig.swift in Sources */,
+				A1A983B9E9CD873825CC1F5DC37D5411 /* ObjectSerializerContext.swift in Sources */,
+				6D5BBB0A157D56B74F62DB39D7C0CC8B /* People.swift in Sources */,
+				F4B609201CF7B02209C52B6A1A168DDD /* Persistence.swift in Sources */,
+				7F39FA9903F2E20CCF24972A9119EB9B /* PrintLogging.swift in Sources */,
+				BB5254F141A595711822939A79FF182B /* ReadWriteLock.swift in Sources */,
+				56289B758B5CD04D29C87BB72510EE6D /* SessionMetadata.swift in Sources */,
+				7891DCFD23872BAD1CB37B130869717C /* SHA256.swift in Sources */,
+				ED92AF8123E774DFA1FFFC17E12D80F9 /* SnapshotMessage.swift in Sources */,
+				38621219E2BD767B68AF32CECEDC1D38 /* SSLSecurity.swift in Sources */,
+				712D0E1FFFD318CFA4C9AB80C25764E2 /* Swizzle.swift in Sources */,
+				9EDA33DE706BB0629A44DDBBE7DD74E6 /* TakeoverNotification.swift in Sources */,
+				884F91246BF60FB2B2032A95690CA7C7 /* TakeoverNotificationViewController.swift in Sources */,
+				35139D4399646CC55935D5D240CEDF9B /* Track.swift in Sources */,
+				51238576C8AC6BC95F469A71ACCF1266 /* Tweak.swift in Sources */,
+				D23D926D18DD0D9386D69A9205F5A39D /* TweakableType.swift in Sources */,
+				BFB687DF08B9EE224B5BDBCCD6FBB31A /* TweakBinding.swift in Sources */,
+				3B3F4AF6316E915F59A360A17809650A /* TweakClusterType.swift in Sources */,
+				CE5B3B2670BCBFF53AD8A518E324847D /* TweakCollection.swift in Sources */,
+				A6D02F33B55C73E29BDB18F8FD8D886E /* TweakGroup.swift in Sources */,
+				1B475DF9936556392B6D3924A9129624 /* TweakLibrary.swift in Sources */,
+				DD6C00644D12AAF66A9C5F0F449CE1C9 /* TweakMessage.swift in Sources */,
+				716337BF1DD564F1EA6C796681C81988 /* TweakPersistency.swift in Sources */,
+				E25381ABE285D45718AAEDD8092E4E1C /* TweakStore.swift in Sources */,
+				0EF4227B8D2A626B8E319841E0D09D4B /* TweakViewData.swift in Sources */,
+				C03CF08DB89289DBA8C74B90A63D89DA /* UIColorToNSString.swift in Sources */,
+				06B4198DEFEBD4D490B3615DFA01AC84 /* UIControlBinding.swift in Sources */,
+				6E8C60E21E4771AC3CFFA973D576E6B2 /* UIEdgeInsetsToNSDictionary.swift in Sources */,
+				CA690336682F0D3F6D40BB9AE6A40AB4 /* UIFontToNSDictionary.swift in Sources */,
+				1D12A5A72998E59A89037D4081CC58FC /* UIImageToNSDictionary.swift in Sources */,
+				707E5A323AB73C815FEDA43B57E2E508 /* UITableViewBinding.swift in Sources */,
+				8BD5C4D4AAE3C4350FF75CD909E1BFAB /* UIViewSelectors.swift in Sources */,
+				C594FDDB3B9FE87AD685FB053DEE0CC2 /* Variant.swift in Sources */,
+				098A635D4EBA3424A4B075225B3BEDDC /* VariantAction.swift in Sources */,
+				B5F298FC82F1910B830FD12F8BDFF221 /* VariantTweak.swift in Sources */,
+				F2DC0972C5F3CCA0CFB8B29F99FC0877 /* WebSocket.swift in Sources */,
+				A2CDB7B7BF021B7EA9A49505355C45AE /* WebSocketWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		799C33DFC198121D241BBE77D1C5DB6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mixpanel-swift";
+			target = 20F39DD3BFD065CEA38D502A667FC624 /* Mixpanel-swift */;
+			targetProxy = 2254AE206F6A1B53A2026536E907E087 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0345A2758D23AEDB06CA4C75E341AEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3008FFCE7BF7F95CE8556D9AFFE7C458 /* Mixpanel-swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mixpanel-swift/Mixpanel-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mixpanel-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift.modulemap";
+				PRODUCT_NAME = Mixpanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49B5A78DBE571998053070754D3695E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		610AD82001B0072E7B17587CB7D534F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3008FFCE7BF7F95CE8556D9AFFE7C458 /* Mixpanel-swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mixpanel-swift/Mixpanel-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mixpanel-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift.modulemap";
+				PRODUCT_NAME = Mixpanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		940BFEAEAE6F197DAC6D3D4052F941A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B60CE27C0BB254CE3957D926C70C14E /* Pods-TestMixpanel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestMixpanel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestMixpanel/Pods-TestMixpanel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestMixpanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEDB178368B0D3A5A13A8E4F41A865D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B17891502FD845914046176A342730 /* Pods-TestMixpanel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestMixpanel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestMixpanel/Pods-TestMixpanel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestMixpanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD369323FD85CB26347C0D75C75D837F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD369323FD85CB26347C0D75C75D837F /* Debug */,
+				49B5A78DBE571998053070754D3695E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601DA0A9CA8199D75BDBD7B50F4DF5EF /* Build configuration list for PBXNativeTarget "Mixpanel-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0345A2758D23AEDB06CA4C75E341AEE1 /* Debug */,
+				610AD82001B0072E7B17587CB7D534F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78BB459012C392C6AD56E5BF23F566C5 /* Build configuration list for PBXNativeTarget "Pods-TestMixpanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDB178368B0D3A5A13A8E4F41A865D3 /* Debug */,
+				940BFEAEAE6F197DAC6D3D4052F941A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
